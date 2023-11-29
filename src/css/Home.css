@@ -16,6 +16,11 @@
     height: 100%;
 }
 
+.home-wrapper h1{
+    word-spacing: 3px;
+    line-height: 1.5;
+}
+
 .home-left{
     justify-content: center;
     align-items: start;
@@ -27,14 +32,14 @@
 }
 
 .home-right{
-    justify-content: center;
-    align-items: center;
     width: 50%;
 }
 
-.home-right img{
-    width: auto;
-    height: auto;
+.img-container{
+    width: 220px;
+    height: 420px;
+    border-radius: 25px;
+    background-color: #930de0;
 }
 
 /* animated button */

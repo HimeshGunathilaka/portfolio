@@ -15,9 +15,10 @@ function Header() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto me-1 mb-lg-0 column-gap-4">
+            <Nav className="ms-auto me-0 mb-lg-0 column-gap-4">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <NavDropdown title="Contact" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://www.linkedin.com/in/himesh-gunathilaka-bb4818258/">
