@@ -3,7 +3,8 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100px;
+    height: 15vh;
+    z-index: 100;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Mulish', sans-serif; */
     font-family: 'Roboto Mono', monospace;
@@ -29,8 +30,8 @@
     color: #00dedf;
 }
 
-.navbar-container a:before{
-    color: #00dedf;
+.nav-link:hover, .nav-link:focus{
+    color: white;
 }
 
 .dropdown-menu a{
