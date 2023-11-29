@@ -1,0 +1,38 @@
+.navbar-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+.brand-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* font-family: 'Mulish', sans-serif; */
+}
+
+.navbar-container a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-link.active,.navbar-nav .nav-link.show{
+    color: #00dedf;
+}
+
+.navbar-container a:hover{
+    color: #00dedf;
+}
+
+.navbar-container a:before{
+    color: #00dedf;
+}
+
+.dropdown-menu a{
+    color: black;
+}
