@@ -1,0 +1,38 @@
+.skills-container{
+    width: 100vw;
+    height: auto;
+    padding-top: 15vh;
+    min-height: 100vh;
+}
+
+.skill-swiper-container{
+    width: 100%;
+    height: auto;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    flex-direction: row;
+}
+
+.skill-swiper-slide{
+    width: auto;
+    height: auto;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+
+.skill-icon{
+    width: 60px;
+    height: 60px;
+}
+
+.skill-swiper-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-item{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}

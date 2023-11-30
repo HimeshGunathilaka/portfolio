@@ -31,11 +31,11 @@
 }
 
 .navbar-nav .nav-link.active,.navbar-nav .nav-link.show{
-    color: #00dedf;
+    color: #009fe7;
 }
 
 .navbar-container a:hover{
-    color: #00dedf;
+    color: #009fe7;
 }
 
 .nav-link:hover, .nav-link:focus{

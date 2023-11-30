@@ -18,7 +18,10 @@ function Home() {
   });
   return (
     <>
-      <div className="home-container row d-flex container mx-5 px-3 align-items-center">
+      <div
+        id="home"
+        className="home-container row d-flex container mx-5 px-3 align-items-center"
+      >
         <div className="col d-flex container home-left home-wrapper">
           <div className="d-flex flex-column">
             <p className="h5 mt-5">Welcome to my portfolio !</p>
@@ -34,7 +37,7 @@ function Home() {
               Crafting digital symphonies from Sri Lanka, I am a visionary
               full-stack maestro, sculpting seamless web and mobile experiences.
             </p>
-            <div className="d-flex flex-row m-0 p-0">
+            <div className="d-flex flex-row mx-0 mt-3 p-0">
               <a
                 className="mt-1"
                 href="https://drive.google.com/uc?export=download&id=1wssENEL90tCFIpdIUAbdfqE7I2UmpuEN"
