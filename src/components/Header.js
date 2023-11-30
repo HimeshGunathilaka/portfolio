@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
+import Icon from "../images/tile_shape.png";
 
 function Header() {
   return (
@@ -11,6 +12,7 @@ function Header() {
       <Navbar expand="lg" className="mx-0 py-4 navbar-container">
         <Container>
           <Navbar.Brand href="#home" className="text-white brand-text">
+            <img src={Icon} className="brand-icon" />
             Portfolio
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -30,7 +32,7 @@ function Header() {
                 <NavDropdown.Item href="https://web.facebook.com/kavinda.himesh.9/">
                   Facebook
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
+                {/* <NavDropdown.Divider /> */}
                 <NavDropdown.Item href="https://www.youtube.com/channel/UCU_E4UFvwmgen1ZX2Nuofgw">
                   Youtube
                 </NavDropdown.Item>

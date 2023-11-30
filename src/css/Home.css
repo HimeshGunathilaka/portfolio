@@ -1,8 +1,7 @@
 .home-container{
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding-top: 15vh;
-    padding-left: 5rem;
     min-height: 100vh;
 }
 
@@ -11,9 +10,7 @@
 }
 
 .home-wrapper{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    height: 25em;
 }
 
 .home-wrapper h1{
@@ -21,10 +18,14 @@
     line-height: 1.5;
 }
 
+.home-wrapper+div{
+  padding: 1rem;
+}
+
 .home-left{
     justify-content: center;
     align-items: start;
-    width: 50%;
+    width: auto;
 }
 
 .home-left a{
@@ -32,28 +33,48 @@
 }
 
 .home-right{
-    width: 50%;
+    width: auto;
+}
+
+.home-right > div{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.img-border{
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(45deg, #190482 0%, #930de0  50%, #5468ff  100%);
 }
 
 .img-container{
-    width: 220px;
-    height: 420px;
-    border-radius: 25px;
-    background-color: #930de0;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+    background-image: url("../images/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* animated button */
 .button-87 {
-    padding: 12px 30px;
+    /* padding: 0.7rem 2rem; */
+    min-width: 160px;
+    min-height: 46px;
     text-align: center;
     /* text-transform: uppercase; */
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
-    border-radius: 25px;
+    border-radius: 23px;
     display: block;
     border: 0px;
     font-weight: 700;
+    font-size: 1rem;
     box-shadow: 0px 0px 14px -7px #5adaff;
     background-image: linear-gradient(45deg, #5468ff 0%, #009fe7  50%, #5468ff  100%);
     cursor: pointer;
@@ -75,7 +96,9 @@
 
   /*animated button 2*/
   .button-88 {
-    padding: 12px 30px;
+    /* padding: 0.7rem 2rem; */
+    min-width: 160px;
+    min-height: 46px;
     text-align: center;
     /* text-transform: uppercase; */
     transition: 0.5s;
@@ -85,6 +108,7 @@
     display: block;
     border: 0px;
     font-weight: 700;
+    font-size: 1rem;
     box-shadow: 0px 0px 14px -7px #5adaff;
     background-image: linear-gradient(45deg, #190482 0%, #930de0  50%, #190482  100%);
     cursor: pointer;
