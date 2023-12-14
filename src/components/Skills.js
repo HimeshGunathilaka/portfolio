@@ -9,7 +9,7 @@ function Skills() {
         className="skills-container row d-flex container px-3 align-items-start"
       >
         <h5 className="h5 text-light text-center mb-3 "># SKILLS</h5>
-        <div className="skill-swiper-container container-fluid my-3 px-5">
+        <div className="skill-swiper-container container-fluid px-5">
           <div class="skill-swiper-slide justify-content-around gap-5">
             <div className="skills-item">
               <img

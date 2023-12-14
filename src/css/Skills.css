@@ -13,12 +13,9 @@
     display: flex;
 }
 
-/* .skill-swiper-slide{
-    width: auto;
-    height: auto;
-    scroll-behavior: smooth;
-    overflow-x: scroll;
-} */
+.skill-swiper-slide:hover {
+    animation-play-state: paused;
+}
 
 .skill-icon{
     width: 60px;
