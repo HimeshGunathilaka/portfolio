@@ -8,31 +8,46 @@
 .skill-swiper-container{
     width: 100%;
     height: auto;
-    scroll-behavior: smooth;
-    overflow-x: scroll;
-    flex-direction: row;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
 }
 
-.skill-swiper-slide{
+/* .skill-swiper-slide{
     width: auto;
     height: auto;
     scroll-behavior: smooth;
     overflow-x: scroll;
-}
+} */
 
 .skill-icon{
     width: 60px;
     height: 60px;
 }
 
-.skill-swiper-wrapper{
-    width: 100%;
+.skill-swiper-slide{
+    width: auto;
     display: flex;
     flex-direction: row;
+    animation: 100s slide infinite linear;
 }
 
 .skills-item{
     width: 150px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.skills-item span {
+    text-align: center;
+}
+
+@keyframes slide{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
