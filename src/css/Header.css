@@ -2,11 +2,20 @@
     position: fixed;
     top: 0;
     left: 0;
+    padding: 0%;
+    margin: 0%;
     width: 100vw;
-    height: 100px;
+    height: 15vh;
+    z-index: 100;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Mulish', sans-serif; */
     font-family: 'Roboto Mono', monospace;
+}
+
+.brand-icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
 }
 
 .brand-text{
@@ -22,15 +31,15 @@
 }
 
 .navbar-nav .nav-link.active,.navbar-nav .nav-link.show{
-    color: #00dedf;
+    color: #009fe7;
 }
 
 .navbar-container a:hover{
-    color: #00dedf;
+    color: #009fe7;
 }
 
-.navbar-container a:before{
-    color: #00dedf;
+.nav-link:hover, .nav-link:focus{
+    color: white;
 }
 
 .dropdown-menu a{

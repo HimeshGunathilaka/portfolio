@@ -1,0 +1,53 @@
+.about-container{
+    width: 100%;
+    height: auto;
+    padding-top: 15vh;
+    min-height: 100vh;
+}
+
+.about-left{
+    width: 30%;
+}
+
+.about-left-backdrop{
+    width: 240px;
+    height: 340px;
+    border: 10px;
+    border-color: #5468ff;
+    border-style: solid;
+}
+
+.about-left-image{
+    width: 240px;
+    height: 340px;
+    background: url("../images/himesh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -50px;
+    margin-left: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.about-left-image::before{
+    box-shadow: 0px 0px 120px 0px rgba(0, 0, 0, 0.32);
+}
+
+.about-left-image:hover{
+    margin-top: -40px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.50);
+}
+
+.about-right{
+    min-width: 65%;
+    width: auto;
+}
+
+.about-right h3{
+    background: -webkit-linear-gradient(45deg,#5468ff,#009fe7, #190482);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
